@@ -1,9 +1,17 @@
-import React from 'react'
+import { Navbar, Hero, Suggestion } from "./components";
+import NegaBiz from "./components/NegaBiz";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <header>
+        <Navbar />
+      </header>
+      <Hero />
+      <Suggestion />
+      {/* <NegaBiz /> */}
+    </div>
+  );
 }
 
-export default App
+export default App;
