@@ -25,7 +25,7 @@ function Hero() {
         </li>
       </ul>
 
-      <a href="#" className="btn btn-accent text-white rounded-3xl mt-7 text-lg uppercase ">
+      <a href="#" className="btn btn-accent text-white rounded-3xl mt-7 px-10 text-lg uppercase 5 ">
         {" "}
         Bepul darsga yozilish
       </a>
