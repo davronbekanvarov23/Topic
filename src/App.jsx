@@ -1,5 +1,4 @@
-import { Navbar, Hero, Suggestion } from "./components";
-import NegaBiz from "./components/NegaBiz";
+import { Navbar, Hero, Suggestion, Results, Grant } from "./components";
 
 function App() {
   return (
@@ -9,7 +8,8 @@ function App() {
       </header>
       <Hero />
       <Suggestion />
-      {/* <NegaBiz /> */}
+      <Results />
+      <Grant />
     </div>
   );
 }
