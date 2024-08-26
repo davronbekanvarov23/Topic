@@ -5,7 +5,7 @@ function Helping() {
         Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda
         yordam beramiz
       </h3>
-      <div className=" flex gap-5">
+      <div className=" flex flex-col sm:flex-row gap-5 ">
         {" "}
         <div className="max-w-[400px]">
           {" "}

@@ -1,6 +1,6 @@
 function Results() {
   return (
-    <div>
+    <div id="Results">
       <h4 className=" align-content text-center text-4xl my-5">
         O’quvchilarimizning natijalari TOPIK 6 gacha
       </h4>

@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="align-content my-10">
+    <div className="align-content my-10" id="About">
       <h3 className=" text-4xl text-center mb-20 ">
         Nima uchun aynan TOPIK academy?
       </h3>

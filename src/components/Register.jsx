@@ -2,11 +2,11 @@ import React from "react";
 
 function Register() {
   return (
-    <div className="  align-content">
+    <div className="  align-content" id="Register">
       <h2 className=" text-4xl my-10 text-center ">
         O'zingizga mos kursga ro'yhatdan o'ting
       </h2>
-      <ul className="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1">
+      <ul className="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-5">
         
         <li className="bg-base-200 max-w-72 rounded-2xl pb-5 ">
           <img src="./course1.png" alt="" className=" max-w-80" />

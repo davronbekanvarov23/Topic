@@ -7,6 +7,8 @@ import {
   Helping,
   Register,
   About,
+  Questions,
+  Footer,
 } from "./components";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <Helping />
       <Register />
       <About />
+      <Questions />
+      <Footer />
     </div>
   );
 }

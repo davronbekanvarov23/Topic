@@ -1,19 +1,19 @@
 function Navlinks() {
   return (
     <div>
-      <ul className=" flex gap-10 font-semibold text-xl" >
+      <ul className=" flex gap-10 font-semibold text-sm md:flex-row flex-col">
         {" "}
         <li>
-          <a href="#NegaBiz">Nega Biz</a>
+          <a href="#About">Nega Biz</a>
         </li>
         <li>
-          <a href="#NegaBiz">Natijalar</a>
+          <a href="#Results">Natijalar</a>
         </li>
         <li>
-          <a href="#NegaBiz">Kurslar</a>
+          <a href="#Register">Kurslar</a>
         </li>
         <li>
-          <a href="#NegaBiz">Ko'p beriladigan Savollar</a>
+          <a href="#Questions">Ko'p beriladigan Savollar</a>
         </li>
       </ul>
     </div>
