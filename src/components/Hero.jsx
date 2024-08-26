@@ -9,7 +9,7 @@ function Hero() {
         imkoniyati
       </h1>
 
-      <ul className="grid md:grid-cols-2 gap-5 grid-cols-1 max-w-3xl">
+      <ul className="grid lg:grid-cols-2 gap-5 grid-cols-1 max-w-3xl">
         <li className="flex items-center gap-5">
           <img src="/decoration.svg" alt="" width={25} height={62} />{" "}
           <p className=" max-w-48 sm:text-xl text-sm">
@@ -25,6 +25,7 @@ function Hero() {
         </li>
       </ul>
 
+<img src="./mainbg.png" alt="" className=" md:absolute xl:top-16 right-0 xl:w-[750px] lg:w-[500px] lg:top-28 sm:w-[500px] sm: top-72 " />
       <a href="#" className="btn btn-accent text-white rounded-3xl mt-7 px-10 text-lg uppercase 5 ">
         {" "}
         Bepul darsga yozilish
