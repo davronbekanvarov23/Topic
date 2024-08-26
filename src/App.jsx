@@ -6,6 +6,7 @@ import {
   Grant,
   Helping,
   Register,
+  About,
 } from "./components";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Grant />
       <Helping />
       <Register />
+      <About />
     </div>
   );
 }
