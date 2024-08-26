@@ -5,4 +5,4 @@
 .align-content {
   @apply max-w-screen-2xl mx-auto p-3 pt-10 sm:px-10 sm:pt-0;
 }
- body{font-family:sans-serif;}
+ body{font-family:'sans-serif';}

@@ -1,4 +1,12 @@
-import { Navbar, Hero, Suggestion, Results, Grant } from "./components";
+import {
+  Navbar,
+  Hero,
+  Suggestion,
+  Results,
+  Grant,
+  Helping,
+  Register,
+} from "./components";
 
 function App() {
   return (
@@ -10,6 +18,8 @@ function App() {
       <Suggestion />
       <Results />
       <Grant />
+      <Helping />
+      <Register />
     </div>
   );
 }

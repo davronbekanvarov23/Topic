@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="align-content ">
       <p className=" py-3">3 oyda Koreys tilida gaplashishni boshlang</p>
-      <h1 className=" font-regular sm:text-2xl md:text-6xl md:max-w-[930px] max-w-60 w-full tracking-wide py-3">
+      <h1 className=" font-regular sm:text-2xl md:text-5xl md:max-w-[731px] max-w-60 w-full tracking-wide py-3">
         Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish
         imkoniyati
       </h1>

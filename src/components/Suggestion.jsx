@@ -4,7 +4,7 @@ function Suggestion() {
   return (
     <div className="align-content text-center mt-10">
       {" "}
-      <h2 className=" text-3xl font-semibold">
+      <h2 className=" text-4xl font-semibold">
         TOPIK academiya aniq siz uchun agar siz:
       </h2>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-10 max-w-5xl w-full justify-center ml-auto mr-auto ">
