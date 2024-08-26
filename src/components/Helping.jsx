@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 function Helping() {
   return (
     <div className="align-content mt-10">
@@ -21,26 +23,17 @@ function Helping() {
             Ariza qoldirish
           </button>
         </div>
-        <div className="carousel rounded-box gap-2">
-          <div className="carousel-item">
-            <img src="./forma2.png" alt="forma" />
-          </div>
-          <div className="carousel-item">
-            <img src="./forma2.png" alt="forma" />
-          </div>{" "}
-          <div className="carousel-item">
-            <img src="./forma2.png" alt="forma" />
-          </div>{" "}
-          <div className="carousel-item">
-            <img src="./forma2.png" alt="forma" />
-          </div>{" "}
-          <div className="carousel-item">
-            <img src="./forma2.png" alt="forma" />
-          </div>{" "}
-          <div className="carousel-item">
-            <img src="./forma2.png" alt="forma" />
-          </div>
-        </div>
+        <Marquee>
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+          <img src="./forma2.png" alt="forma" />
+        </Marquee>
       </div>
     </div>
   );
